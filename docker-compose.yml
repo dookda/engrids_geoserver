@@ -1,0 +1,48 @@
+version: '3.8'
+
+services:
+  postgis:
+    image: postgis/postgis:latest
+    environment:
+      - POSTGRES_USER=geoserver
+      - POSTGRES_PASSWORD=geoserver
+      - POSTGRES_DB=geodb
+    volumes:
+      - ./postgis_data:/var/lib/postgresql/data
+    ports:
+      - "5432:5432"
+    networks:
+      - geoserver-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U geoserver -d geodb"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  geoserver:
+    image: docker.osgeo.org/geoserver:2.28.x
+    environment:
+      - GEOSERVER_ADMIN_USER=admin
+      - GEOSERVER_ADMIN_PASSWORD=geoserver
+      - POSTGIS_HOST=postgis
+      - POSTGIS_PORT=5432
+      - POSTGIS_USER=geoserver
+      - POSTGIS_PASSWORD=geoserver
+      - POSTGIS_DB=geodb
+    volumes:
+      - ./geoserver_data:/opt/geoserver_data
+    ports:
+      - "8080:8080"
+    depends_on:
+      postgis:
+        condition: service_healthy
+    networks:
+      - geoserver-network
+
+volumes:
+  postgis_data:
+  geoserver_data:
+
+networks:
+  geoserver-network:
+    driver: bridge
