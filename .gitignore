@@ -1,3 +1,5 @@
+*.tif
+
 # Logs
 logs
 *.log
