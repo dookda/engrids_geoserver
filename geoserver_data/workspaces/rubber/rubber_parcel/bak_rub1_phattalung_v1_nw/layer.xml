@@ -1,0 +1,17 @@
+<layer>
+  <name>bak_rub1_phattalung_v1_nw</name>
+  <id>LayerInfoImpl-19c07171:1971a26b73f:-7f68</id>
+  <type>VECTOR</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-78eb30e8:1973939a8f6:3a37</id>
+  </defaultStyle>
+  <resource class="featureType">
+    <id>FeatureTypeInfoImpl-19c07171:1971a26b73f:-7f69</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-05-29 03:51:54.383 UTC</dateCreated>
+  <dateModified>2025-06-05 08:35:04.844 UTC</dateModified>
+</layer>

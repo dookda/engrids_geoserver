@@ -1,0 +1,53 @@
+<featureType>
+  <id>FeatureTypeInfoImpl-19c07171:1971a26b73f:-7eee</id>
+  <name>bak_rub1_songkha_v1_pp</name>
+  <nativeName>bak_rub1_songkha_v1_pp</nativeName>
+  <namespace>
+    <id>NamespaceInfoImpl--1750aebb:19719b04f15:-7fff</id>
+  </namespace>
+  <title>bak_rub1_songkha_v1_pp</title>
+  <keywords>
+    <string>bak_rub1_songkha_v1_pp</string>
+    <string>features</string>
+  </keywords>
+  <nativeCRS>GEOGCS[&quot;WGS 84&quot;, &#xd;
+  DATUM[&quot;World Geodetic System 1984&quot;, &#xd;
+    SPHEROID[&quot;WGS 84&quot;, 6378137.0, 298.257223563, AUTHORITY[&quot;EPSG&quot;,&quot;7030&quot;]], &#xd;
+    AUTHORITY[&quot;EPSG&quot;,&quot;6326&quot;]], &#xd;
+  PRIMEM[&quot;Greenwich&quot;, 0.0, AUTHORITY[&quot;EPSG&quot;,&quot;8901&quot;]], &#xd;
+  UNIT[&quot;degree&quot;, 0.017453292519943295], &#xd;
+  AXIS[&quot;Geodetic longitude&quot;, EAST], &#xd;
+  AXIS[&quot;Geodetic latitude&quot;, NORTH], &#xd;
+  AUTHORITY[&quot;EPSG&quot;,&quot;4326&quot;]]</nativeCRS>
+  <srs>EPSG:4326</srs>
+  <nativeBoundingBox>
+    <minx>100.2495346069336</minx>
+    <maxx>101.06269073486328</maxx>
+    <miny>6.417145252227783</miny>
+    <maxy>7.109509944915772</maxy>
+    <crs>EPSG:4326</crs>
+  </nativeBoundingBox>
+  <latLonBoundingBox>
+    <minx>100.2495346069336</minx>
+    <maxx>101.06269073486328</maxx>
+    <miny>6.417145252227783</miny>
+    <maxy>7.109509944915772</maxy>
+    <crs>EPSG:4326</crs>
+  </latLonBoundingBox>
+  <projectionPolicy>FORCE_DECLARED</projectionPolicy>
+  <enabled>true</enabled>
+  <store class="dataStore">
+    <id>DataStoreInfoImpl-19c07171:1971a26b73f:-7ffc</id>
+  </store>
+  <serviceConfiguration>false</serviceConfiguration>
+  <simpleConversionEnabled>false</simpleConversionEnabled>
+  <internationalTitle/>
+  <internationalAbstract/>
+  <maxFeatures>0</maxFeatures>
+  <numDecimals>0</numDecimals>
+  <padWithZeros>false</padWithZeros>
+  <forcedDecimal>false</forcedDecimal>
+  <overridingServiceSRS>false</overridingServiceSRS>
+  <skipNumberMatched>false</skipNumberMatched>
+  <circularArcPresent>false</circularArcPresent>
+</featureType>

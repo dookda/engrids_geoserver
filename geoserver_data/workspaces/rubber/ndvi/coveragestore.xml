@@ -1,0 +1,15 @@
+<coverageStore>
+  <id>CoverageStoreInfoImpl--1750aebb:19719b04f15:-7fdf</id>
+  <name>ndvi</name>
+  <description>ndvi</description>
+  <type>ImageMosaic</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--1750aebb:19719b04f15:-8000</id>
+  </workspace>
+  <__default>false</__default>
+  <dateCreated>2025-05-29 01:45:32.798 UTC</dateCreated>
+  <dateModified>2025-06-04 04:24:38.122 UTC</dateModified>
+  <disableOnConnFailure>false</disableOnConnFailure>
+  <url>file:data/rubber4326</url>
+</coverageStore>

@@ -1,0 +1,43 @@
+<dataStore>
+  <id>DataStoreInfoImpl-19c07171:1971a26b73f:-7ffc</id>
+  <name>rubber_parcel</name>
+  <type>PostGIS</type>
+  <enabled>true</enabled>
+  <workspace>
+    <id>WorkspaceInfoImpl--1750aebb:19719b04f15:-8000</id>
+  </workspace>
+  <connectionParameters>
+    <entry key="schema">public</entry>
+    <entry key="Evictor run periodicity">300</entry>
+    <entry key="Max open prepared statements">50</entry>
+    <entry key="encode functions">true</entry>
+    <entry key="Batch insert size">1</entry>
+    <entry key="preparedStatements">false</entry>
+    <entry key="database">rub</entry>
+    <entry key="reWriteBatchedInserts">false</entry>
+    <entry key="host">172.16.0.4</entry>
+    <entry key="Loose bbox">true</entry>
+    <entry key="SSL mode">DISABLE</entry>
+    <entry key="Estimated extends">true</entry>
+    <entry key="fetch size">1000</entry>
+    <entry key="Expose primary keys">false</entry>
+    <entry key="validate connections">true</entry>
+    <entry key="Support on the fly geometry simplification">true</entry>
+    <entry key="Connection timeout">20</entry>
+    <entry key="create database">false</entry>
+    <entry key="Method used to simplify geometries">FAST</entry>
+    <entry key="port">5400</entry>
+    <entry key="passwd">crypt1:HJNWFyLZHZKe2BdNwdI/7g==</entry>
+    <entry key="min connections">1</entry>
+    <entry key="dbtype">postgis</entry>
+    <entry key="namespace">https://engrids.soc.cmu.ac.th/</entry>
+    <entry key="max connections">10</entry>
+    <entry key="Evictor tests per run">3</entry>
+    <entry key="Test while idle">true</entry>
+    <entry key="user">postgres</entry>
+    <entry key="Max connection idle time">300</entry>
+  </connectionParameters>
+  <__default>false</__default>
+  <dateCreated>2025-05-29 03:49:05.878 UTC</dateCreated>
+  <disableOnConnFailure>false</disableOnConnFailure>
+</dataStore>

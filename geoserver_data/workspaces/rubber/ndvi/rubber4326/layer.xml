@@ -1,0 +1,17 @@
+<layer>
+  <name>rubber4326</name>
+  <id>LayerInfoImpl--1750aebb:19719b04f15:-7fd0</id>
+  <type>RASTER</type>
+  <defaultStyle>
+    <id>StyleInfoImpl-19c07171:1971a26b73f:-7e17</id>
+  </defaultStyle>
+  <resource class="coverage">
+    <id>CoverageInfoImpl--1750aebb:19719b04f15:-7fd1</id>
+  </resource>
+  <attribution>
+    <logoWidth>0</logoWidth>
+    <logoHeight>0</logoHeight>
+  </attribution>
+  <dateCreated>2025-05-29 01:46:43.322 UTC</dateCreated>
+  <dateModified>2025-06-06 02:27:52.422 UTC</dateModified>
+</layer>
