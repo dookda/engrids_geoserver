@@ -10,7 +10,7 @@ services:
     volumes:
       - ./postgis_data:/var/lib/postgresql/data
     ports:
-      - "5432:5432"
+      - "5410:5432"
     networks:
       - geoserver-network
     healthcheck:
