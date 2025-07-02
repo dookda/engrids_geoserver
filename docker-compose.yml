@@ -7,7 +7,7 @@ services:
       - POSTGRES_DB=geodb
     volumes:
       # - ./postgis_data:/var/lib/postgresql/data
-      - /postgis_db:/docker-entrypoint-initdb.d
+      - ./postgis_db:/docker-entrypoint-initdb.d
     ports:
       - "5410:5432"
     networks:
@@ -37,10 +37,6 @@ services:
         condition: service_healthy
     networks:
       - geoserver-network
-
-volumes:
-  postgis_data:
-  geoserver_data:
 
 networks:
   geoserver-network:
