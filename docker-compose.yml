@@ -28,8 +28,10 @@ services:
       - POSTGIS_USER=geoserver
       - POSTGIS_PASSWORD=geoserver
       - POSTGIS_DB=geodb
+      - GEOWEBCACHE_CACHE_DIR=/opt/geoserver/gwc_cache
     volumes:
       - ./geoserver_data:/opt/geoserver_data
+      - ./gwc_cache:/opt/geoserver/gwc_cache
     ports:
       - "8080:8080"
     depends_on:
